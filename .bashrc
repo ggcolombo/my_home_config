@@ -46,3 +46,11 @@ source /usr/bin/virtualenvwrapper.sh
 
 # . bashrcd
 
+# set terminal title to "ssh $host"
+ssh()
+{
+  SSHAPP=`which ssh`
+  ARGS=$@
+  echo -en "\033]0;ssh $ARGS\007"
+  $SSHAPP $ARGS
+}
