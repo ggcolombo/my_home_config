@@ -42,8 +42,8 @@ export HISTSIZE=1000000
 # virtualen wrapper requirements
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/workspace
-source /usr/bin/virtualenvwrapper.sh
-
+#source /usr/bin/virtualenvwrapper.sh
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 # . bashrcd
 
 # set terminal title to "ssh $host"
@@ -54,3 +54,11 @@ ssh()
   echo -en "\033]0;ssh $ARGS\007"
   $SSHAPP $ARGS
 }
+
+export PATH=$PATH:$HOME/bin:$HOME/.local/bin
+
+eval $(thefuck --alias)
+# You can use whatever you want as an alias, like for Mondays:
+eval $(thefuck --alias FUCK)
+eval $(thefuck --alias please)
+
