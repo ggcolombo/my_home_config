@@ -14,10 +14,19 @@ It adds local configurations for
 **VIM**
  * dark theme
 
+**NVIM**
+ * tab, columns, clipboard, etc etc
+
 **[R](https://www.r-project.org/)**
  * Fixed repos (imperial)
  * No strings as factors by default
  * console out width of 200 to display large data.frames in shell
+
+### Branches
+ * master is meant to contain configs to be used globally, ie on all machines I am using
+ * yoga is meant to contain configs specific to the yoga laptop (Ubuntu)
+ * other branches for other machines
+
 
 *NOTES*:
 
