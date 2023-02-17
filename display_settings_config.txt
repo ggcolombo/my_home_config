@@ -1,0 +1,3 @@
+# Useful settings
+
+# Monitor yoga: 3840x2160, scale factor 200%, if using fractional scaling use command below and move to 175%
