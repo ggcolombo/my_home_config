@@ -9,3 +9,4 @@ set showmatch               " show matching
 set cc=80                  " set an 80 column border for good coding style
 syntax on                   " syntax highlighting
 set number
+tnoremap <Esc> <C-\><C-n> " To map <Esc> to exit terminal-mode
